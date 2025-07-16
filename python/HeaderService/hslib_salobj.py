@@ -1178,9 +1178,8 @@ class HSWorker(salobj.BaseCsc):
         # Store the creation date of the header file -- i.e. now!!
         DATE = hscalc.get_date(time.time())
         metadata['DATE'] = DATE.isot
-        # Need to force MJD dates to floats for yaml header
-        metadata['MJD'] = float(DATE.mjd)
 
+        # Need to force MJD dates to floats for yaml header
         if 'DATE-OBS' in metadata:
             DATE_OBS = hscalc.get_date(metadata['DATE-OBS'])
             metadata['DATE-OBS'] = DATE_OBS.isot
