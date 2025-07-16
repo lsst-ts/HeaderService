@@ -10,7 +10,6 @@ DATE    =                      / Creation Date and Time of File
 DATE-OBS=                      / Date of the observation (image acquisition)
 DATE-BEG=                      / Time at the start of integration
 DATE-END=                      / end date of the observation
-MJD     =                      / Modified Julian Date that the file was written
 MJD-OBS =                      / Modified Julian Date of observation
 MJD-BEG =                      / Modified Julian Date derived from DATE-BEG
 MJD-END =                      / Modified Julian Date derived from DATE-END
