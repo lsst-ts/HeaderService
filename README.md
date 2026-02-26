@@ -1,12 +1,11 @@
 # HeaderService
 
-Development for LSST Meta-data FITS header service
+The LSST Meta-data FITS header service
 
 Description
 -----------
 
-This is the development for the LSST Meta-data FITS header client. It
-uses a set of FITS header library templates and DDS/SAL Python-based
+This is the LSST Meta-data FITS header client. It uses a set of FITS header library templates and DDS/SAL Python-based
 communication layer to populate meta-data and command the header
 client to write header files.
 
