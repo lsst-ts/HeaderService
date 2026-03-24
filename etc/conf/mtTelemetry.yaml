@@ -685,6 +685,37 @@ telemetry:
    value: mode
    collect_after_event: start_collection_event
 
+# ----- Calibration headers ------
+
+ HIERARCH CALIB LASER_WAVE:
+   device: TunableLaser
+   Stype: Event
+   topic: wavelengthChanged
+   value: wavelength
+   collect_after_event: start_collection_event
+
+ HIERARCH CALIB LASER_MODE:
+   device: TunableLaser
+   Stype: Event
+   topic: detailedState
+   value: detailedState
+   collect_after_event: start_collection_event
+
+ HIERARCH CALIB LED_NAMES:
+   device: LEDProjector
+   Stype: Event
+   topic: ledState
+   value: serialNumber
+   collect_after_event: start_collection_event
+
+ HIERARCH CALIB LED_LEVEL:
+   device: LEDProjector
+   Stype: Event
+   topic: ledState
+   value: value
+   collect_after_event: start_collection_event
+
+
 
 # --- Keywords from playback ---------------
 playback_keywords:
