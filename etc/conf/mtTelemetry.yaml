@@ -708,7 +708,7 @@ telemetry:
    value: serialNumbers
    collect_after_event: start_collection_event
 
- HIERARCH CALIB LED_LEVEL:
+ HIERARCH CALIB LED_LEVELS:
    device: LEDProjector
    Stype: Event
    topic: ledsOn
