@@ -704,15 +704,15 @@ telemetry:
  HIERARCH CALIB LED_NAMES:
    device: LEDProjector
    Stype: Event
-   topic: ledState
-   value: serialNumber
+   topic: ledsOn
+   value: serialNumbers
    collect_after_event: start_collection_event
 
  HIERARCH CALIB LED_LEVEL:
    device: LEDProjector
    Stype: Event
-   topic: ledState
-   value: value
+   topic: ledsOn
+   value: dacValues
    collect_after_event: start_collection_event
 
 
