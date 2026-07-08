@@ -2,7 +2,6 @@
 CCD_MANU=                      / CCD Manufacturer
 CCD_TYPE=                      / CCD Model Number
 CCD_SERN=                      / Manufacturers CCD Serial Number
-CCDTEMP =                      / Measured temperature (deg C)
 LSST_NUM=                      / LSST Assigned CCD Number
 SEQCKSUM=                      / Checksum of Sequencer
 SEQNAME =                      / SequenceName from Camera StartIntergration
