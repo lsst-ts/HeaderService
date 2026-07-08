@@ -219,13 +219,6 @@ telemetry:
   value: measuredShutterOpenTime
   collect_after_event: end_collection_event
 
- TEMP_SET:
-  device: ATCamera
-  Stype: Telemetry
-  topic: vacuum
-  value: tempCCDSetPoint
-  collect_after_event: start_collection_event
-
  CURINDEX:
   device: ATCamera
   Stype: Event
@@ -241,15 +234,6 @@ telemetry:
   collect_after_event: start_collection_event
 
 # --- Camera Sensor information
-
- CCDTEMP:
-  device: ATCamera
-  Stype: Telemetry
-  topic: focal_plane_Ccd
-  value: temp
-  collect_after_event: start_collection_event
-  array: CCD_array
-  array_keys: location
 
  CCD_MANU:
   device: ATCamera

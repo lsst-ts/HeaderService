@@ -83,9 +83,6 @@ TSTAND  =                      / The Test Stand used
         ---- Information from Camera (Common block) ----
 IMAGETAG=                      / DAQ Image id
 
-        ---- Information from Camera ----
-TEMP_SET=                      / Temperature set point (deg C)
-
         ---- Filter/grating information ----
 FILTBAND=                      / Name of the filter band
 FILTER  =                      / Name of the physical filter
